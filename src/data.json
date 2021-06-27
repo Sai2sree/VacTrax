@@ -1,0 +1,113 @@
+{
+  "events": [
+    {
+      "name": "Friday Funfest @ Uncle Bob's Pizzeria",
+      "host": {
+        "name": "Sree"
+      },
+      "guestsList": [
+        "email@email.com",
+        "email2@email.com",
+        "email3@email.com",
+        "email4@email.com",
+        "email5@email.com",
+        "email6@email.com",
+        "email7@email.com",
+        "email8@email.com",
+        "email9@email.com",
+        "email10@email.com",
+        "email11@email.com"
+      ],
+      "guestsInfo": [
+        {
+          "name": "Vallab",
+          "contact": "email@email.com",
+          "status": "done",
+          "vaccine": "Moderna",
+          "dose1": "03-15-21",
+          "dose2": "04-15-21"
+        },
+        {
+          "name": "Sree",
+          "contact": "email2@email.com",
+          "status": "partial",
+          "vaccine": "Pfizer",
+          "dose1": "04-15-21",
+          "dose2": null
+        },
+        {
+          "name": "Bob",
+          "contact": "email3@email.com",
+          "status": "none",
+          "vaccine": null,
+          "dose1": null,
+          "dose2": null
+        },
+        {
+          "name": "Sal",
+          "contact": "email4@email.com",
+          "status": null,
+          "vaccine": null,
+          "dose1": null,
+          "dose2": null
+        },
+        {
+          "name": "Randy",
+          "contact": "email5@email.com",
+          "status": "done",
+          "vaccine": "Johnson & Johnson",
+          "dose1": "04-16-21",
+          "dose2": null
+        },
+        {
+          "name": "Suzie",
+          "contact": "email6@email.com",
+          "status": "done",
+          "vaccine": "Johnson & Johnson",
+          "dose1": "04-19-21",
+          "dose2": null
+        },
+        {
+          "name": "Carla",
+          "contact": "email7@email.com",
+          "status": "none",
+          "vaccine": null,
+          "dose1": null,
+          "dose2": null
+        },
+        {
+          "name": "Angela",
+          "contact": "email8@email.com",
+          "status": "done",
+          "vaccine": "Moderna",
+          "dose1": "4-15-21",
+          "dose2": "5-15-21"
+        },
+        {
+          "name": "Priya",
+          "contact": "email9@email.com",
+          "status": "partial",
+          "vaccine": "Pfizer",
+          "dose1": "03-15-21",
+          "dose2": null
+        },
+        {
+          "name": "Hari",
+          "contact": "email10@email.com",
+          "status": "done",
+          "vaccine": "Pfizer",
+          "dose1": "03-15-21",
+          "dose2": "04-15-21"
+        },
+        {
+          "name": "Abhi",
+          "contact": "email11@email.com",
+          "status": null,
+          "vaccine": null,
+          "dose1": null,
+          "dose2": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "my-covid19-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "12.16.0",
+    "npm": "6.13.4"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^3.3.2",
+    "datatables.net-dt": "^1.1.0",
+    "firebase": "^7.22.0",
+    "font-awesome": "^4.7.0",
+    "font-awesome-icons": "^1.6.0",
+    "google-maps-react": "^2.0.6",
+    "joi-browser": "^13.4.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "material-ui": "^0.20.2",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-awesome-button": "^6.5.1",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-4-pagination": "^1.0.3",
+    "react-bootstrap-pagination": "^1.0.7",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^16.13.1",
+    "react-file-reader": "^1.1.4",
+    "react-js-pagination": "^3.0.3",
+    "react-moment": "^0.9.7",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-toastify": "^6.0.6",
+    "react-window": "^1.8.5",
+    "react-window-size": "^1.2.0",
+    "recompose": "^0.30.0",
+    "serve": "^11.3.2",
+    "xlsx": "^0.16.7"
+  },
+  "scripts": {
+    "dev": "npx react-scripts start",
+    "start": "npx react-scripts start",
+    "build": "npx react-scripts build",
+    "test": "npx react-scripts test --env=jsdom",
+    "eject": "npx react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+.form {
+  max-width: 500px;
+  margin: 48px auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.submit-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: rgb(85, 106, 160);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.radio-options label {
+  margin-left: 4px;
+  margin-right: 24px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 24px;
+}
+
+.vaccine-date label {
+  font-weight: bold;
+  font-size: 20px;
+  top: -30px;
+  left: 0;
+  color: black;
+}
+
+.vaccine-date input {
+  color: grey;
+}
+
+.upbutton {
+  background-color: #4c7caf; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 35px;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.upbutton2:hover {
+  background-color: #00ba4a;
+  color: white;
+}
+
+.form-title {
+  margin-bottom: -15px;
+}

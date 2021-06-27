@@ -1,0 +1,62 @@
+.wrapper3 {
+  position: fixed;
+  /* top: 50%;
+  left: 50%;*/
+  transform: translate(-50%, -50%);
+}
+
+.link_wrapper {
+  position: relative;
+}
+
+a.share {
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: rgb(46, 29, 201);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all 0.35s;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.icon svg {
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: rgb(46, 29, 201);
+  transition: all 0.35s;
+}
+
+a.share:hover {
+  width: 200px;
+  border: 3px solid rgb(46, 29, 201);
+  background: transparent;
+  color: rgb(46, 29, 201);
+  text-decoration: none;
+}
+
+a.share:hover + .icon {
+  border: 3px solid rgb(46, 29, 201);
+  right: -25%;
+  text-decoration: none;
+}

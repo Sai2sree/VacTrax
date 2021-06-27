@@ -1,0 +1,14 @@
+td.details-control {
+  background: url("../../assets/details_open.png") no-repeat center center;
+  cursor: pointer;
+  background-size: 40px;
+}
+tr.shown td.details-control {
+  background: url("../../assets/details_close.png") no-repeat center center;
+  background-size: 40px;
+}
+
+h1.myTrax {
+  margin-top: 50px;
+  margin-left: 300px;
+}

@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper2 {
+  position: fixed;
+  top: 50%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+}
+
+a.load {
+  display: block;
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 35px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+a.load span {
+  position: relative;
+  z-index: 2;
+}
+
+a.load:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #0173fff7;
+  transition: all 0.75s;
+}
+
+a.load:hover {
+  color: #fff;
+}
+
+a.load:hover:after {
+  width: 100%;
+}
+
+.column {
+  padding: 0;
+  padding-left: 15px;
+}
