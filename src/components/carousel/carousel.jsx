@@ -121,13 +121,98 @@ class AppCarousel extends Component {
           </Carousel.Item>
         </Carousel>
         <div className="legend">
-          <h3 className="legend-title">Legend:</h3>
+          <h3 className="legend-title">TraxMeter Legend:</h3>
           <ul>
-            <li><strong>5 stars:</strong> 100% population fully vaccinated</li>
-            <li><strong>4 stars:</strong> above 80% population fully vaccinated</li>
-            <li><strong>3 stars:</strong> above 60% population fully vaccinated</li>
-            <li><strong>2 stars:</strong> above 40% population fully vaccinated</li>
-            <li><strong>1 star:</strong> above 20% population fully vaccinated</li>
+            <li>
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />{" "}
+              100% population fully vaccinated
+            </li>
+            <li>
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              80% population fully vaccinated
+            </li>
+            <li>
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              60% population fully vaccinated
+            </li>
+            <li>
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              40% population fully vaccinated
+            </li>
+            <li>
+              <img
+                className="stars"
+                src={require("../../assets/favourite-star.png")}
+                alt="folk dance"
+              />
+              20% population fully vaccinated
+            </li>
           </ul>
         </div>
       </div>
