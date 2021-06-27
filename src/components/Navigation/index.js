@@ -57,7 +57,7 @@ const Navigation = () => (
               to={ROUTES.USERS}
               style={{ fontFamily: "copperplate" }}
             >
-              allTrax
+              myTrax
             </NavLink>
           </li>
         </ul>
