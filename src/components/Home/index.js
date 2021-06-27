@@ -38,7 +38,7 @@ class HomePage extends Component {
               fontSize: 40,
             }}
           >
-            Where Safety Comes to the Party.
+            Reopening safely starts with your neighborhood.
           </p>
         </div>
         <h2

@@ -7,7 +7,7 @@ const LocalEvents = () => {
   return (
     <div className="local-events">
       <h1 style={{ textAlign: "center", marginTop: 50 }}>
-        Reopening safely starts with your neighborhood.
+        Where Safety Comes to the Party.
       </h1>
       <h1 style={{ textAlign: "center", marginTop: 70, fontSize: 50 }}>
         Where will you leave your{" "}
