@@ -28,7 +28,7 @@ class HostsPage extends Component {
   render() {
     return (
       <React.Fragment>
-        <h3 style={{ textAlign: "center", marginBottom: 80, color: "black" }}>
+        <h3 style={{ textAlign: "center", marginBottom: 80, color: "grey", fontStyle: 'italic' }}>
           "The power of community to create health is far greater than any
           physician, clinic, or hospital." -Mark Hyman
         </h3>

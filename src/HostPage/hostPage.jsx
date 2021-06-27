@@ -27,7 +27,7 @@ class HostsPage extends Component {
   render() {
     return (
       <React.Fragment>
-        <h3 style={{ textAlign: "center", marginBottom: 10, color: "black" }}>
+        <h3 style={{ textAlign: "center", marginBottom: 10, color: "black", color: 'grey', fontStyle: 'italic' }}>
           “You can’t control what goes on outside, but you CAN control what goes
           on inside.”
         </h3>
