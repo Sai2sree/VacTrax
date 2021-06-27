@@ -1,21 +1,7 @@
 import React from "react";
 import * as ROUTES from "../../constants/routes";
-import { Link, NavLink } from "react-router-dom";
-import { red } from "@material-ui/core/colors";
+import { NavLink } from "react-router-dom";
 import "./index.css";
-
-/* 
-const Navigation = () => <div>VacTrax</div>;
-
-
-  <div>
-    <AuthUserContext.Consumer>
-      {(authUser) => (authUser ? <NavigationAuth /> : <NavigationNonAuth />)}
-    </AuthUserContext.Consumer>
-  </div>
-  
-);
-*/
 
 const Navigation = () => (
   <div>
@@ -45,19 +31,9 @@ const Navigation = () => (
             <NavLink
               className="nav-link"
               to={ROUTES.HOME}
-              style={{ fontFamily: "copperplate" }}
+              style={{ fontFamily: "copperplate", fontSize: 30 }}
             >
               VacTrax
-            </NavLink>
-          </li>
-
-          <li className="nav-item">
-            <NavLink
-              className="nav-link"
-              to={ROUTES.USERS}
-              style={{ fontFamily: "copperplate" }}
-            >
-              myTrax
             </NavLink>
           </li>
         </ul>
@@ -69,6 +45,15 @@ const Navigation = () => (
             //</NavLink>
             //</li>}
           }
+          <li className="nav-item">
+            <NavLink
+              className="nav-link"
+              to={ROUTES.USERS}
+              style={{ fontFamily: "copperplate" }}
+            >
+              myTrax
+            </NavLink>
+          </li>
           <li className="nav-item">
             <NavLink
               className="nav-link"
